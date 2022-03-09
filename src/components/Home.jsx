@@ -14,7 +14,7 @@ export function Home() {
     fontSize: "1.5rem",
     padding: "0.5rem 1rem",
     border: "none",
-    backgroundColor: "darkgray",
+    backgroundColor: "white",
     borderRadius: "6px",
   };
 
