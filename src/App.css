@@ -1,6 +1,9 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+  background: url('https://media.istockphoto.com/photos/blurred-background-of-a-car-parking-in-the-department-store-car-picture-id1005913268?k=20&m=1005913268&s=170667a&w=0&h=fgtbcIgEVXhArUreN3V5mbOYgqf2xVm0h19h4W0UpgA=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 
 .App-logo {
   height: 40vmin;
