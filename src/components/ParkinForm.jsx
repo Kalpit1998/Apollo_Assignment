@@ -18,10 +18,9 @@ export function ParkinForm(props) {
 
     let res = await fetch(`https://apollo-parking-lot.herokuapp.com/parking`);
     res = await res.json();
-    console.log(res);
     let two=1;
     res.map((el)=>{
-      if(Number(el.vehicle_number)=== number)
+      if(el.vehicle_number== number)
       {
         console.log(1);
         two=0;
