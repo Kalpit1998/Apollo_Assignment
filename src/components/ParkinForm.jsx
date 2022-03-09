@@ -22,13 +22,11 @@ export function ParkinForm(props) {
     res.map((el)=>{
       if(el.vehicle_number== number)
       {
-        console.log(1);
         two=0;
         return;
       }
     })
     if(two===0){
-      console.log(2)
       alert("Wrong Vehicle Detail, already available in our database")
       return;
     }
