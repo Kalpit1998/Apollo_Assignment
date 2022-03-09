@@ -1,0 +1,19 @@
+div#out_wrapper{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 35px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+}
+
+
+div#out_wrapper ul{
+   list-style: none;
+    padding: 1rem; 
+}
+
+
