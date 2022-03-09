@@ -26,7 +26,7 @@ const handleForm = async (e) => {
     
 
     try {
-      let data = await fetch(`http://localhost:2500/parking?vehicle_number=${number}`);
+      let data = await fetch(`https://apollo-parking-lot.herokuapp.com/parking?vehicle_number=${number}`);
 
       let res = await data.json();
 

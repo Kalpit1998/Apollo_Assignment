@@ -4,8 +4,22 @@
       "vehicle_number": "MP07SB9085",
       "vehicle_type": "bike",
       "parking_lot": "lot-1",
-      "in_time": "12:20:03 PM",
+      "in_time": "1:27:18 PM",
       "id": 1
+    },
+    {
+      "vehicle_number": "MP07SB9085",
+      "vehicle_type": "bike",
+      "parking_lot": "lot-1",
+      "in_time": "1:27:30 PM",
+      "id": 2
+    },
+    {
+      "vehicle_number": "MP07SB9085",
+      "vehicle_type": "bike",
+      "parking_lot": "lot-1",
+      "in_time": "1:27:37 PM",
+      "id": 3
     }
   ]
 }

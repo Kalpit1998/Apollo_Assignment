@@ -16,7 +16,7 @@ export function ParkinForm(props) {
 
     
 
-    let res = await fetch(`http://localhost:2500/parking`);
+    let res = await fetch(`https://apollo-parking-lot.herokuapp.com/parking`);
     res = await res.json();
     let two=1;
     res.map((el)=>{
@@ -40,7 +40,7 @@ export function ParkinForm(props) {
     };
 
     try{
-      const res = await fetch("http://localhost:2500/parking", {
+      const res = await fetch("https://apollo-parking-lot.herokuapp.com/parking", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
